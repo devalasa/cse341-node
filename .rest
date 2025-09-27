@@ -1,2 +1,9 @@
+### Get all Users
+GET http://localhost:3000/users/Cannot%20GET%20/users
+
 GET http://localhost:3000/users/Cannot%20GET%20/users/68c5143334c6e09377b8bd9f
+
+
+
+
 # GET https://cse341-node-l5kx.onrender.com/users/
