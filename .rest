@@ -1,8 +1,39 @@
-### Get all Users
-GET http://localhost:3000/users/Cannot%20GET%20/users
 
-GET http://localhost:3000/users/Cannot%20GET%20/users/68c5143334c6e09377b8bd9f
+### GET all users
+GET http://localhost:3000/users
+Accept: application/json
 
+### GET a single user by ID
+GET http://localhost:3000/users/68c5143334c6e09377b8bd9f
+Accept: application/json
+
+### POST (create a new user)
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "firstName": "Jonathan",
+  "lastName": "Doe",
+  "email": "jonadoe@example.com",
+  "favoriteColor": "Orange",
+  "birthday": "20/03/1997"
+}
+
+### PUT (update an existing user)
+PUT http://localhost:3000/users/68d8668f73ce19acbc78e033
+Content-Type: application/json
+
+{
+  "firstName": "Jonathan",
+  "lastName": "Doe",
+  "email": "jonadoe@example.com",
+  "favoriteColor": "Orange",
+  "birthday": "20/03/1997"
+}
+
+### DELETE (remove a user)
+DELETE http://localhost:3000/users/68c5143334c6e09377b8bd9f
+Accept: application/json
 
 
 
