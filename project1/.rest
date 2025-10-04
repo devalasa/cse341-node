@@ -12,23 +12,23 @@ POST http://localhost:3000/users
 Content-Type: application/json
 
 {
-  "firstName": "Jonathan",
-  "lastName": "Doe",
-  "email": "jonadoe@example.com",
-  "favoriteColor": "Orange",
-  "birthday": "20/03/1997"
+  "firstName": "June",
+  "lastName": "Friday",
+  "email": "junafriday@example.com",
+  "favoriteColor": "Pink",
+  "birthday": "20/03/2007"
 }
 
 ### PUT (update an existing user)
-PUT http://localhost:3000/users/68d8668f73ce19acbc78e033
+PUT http://localhost:3000/users/68d8698bccf3299f29418c85
 Content-Type: application/json
 
 {
-  "firstName": "Jonathan",
+  "firstName": "June",
   "lastName": "Doe",
-  "email": "jonadoe@example.com",
-  "favoriteColor": "Orange",
-  "birthday": "20/03/1997"
+  "email": "junafriday@example.com",
+  "favoriteColor": "Purple",
+  "birthday": "20/03/2007"
 }
 
 ### DELETE (remove a user)

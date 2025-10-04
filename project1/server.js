@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = process.emv || 3000;
+const port = process.env || 3000;
 const bodyParser = require('body-parser');
 const mongodb = require('./data/database')
 
